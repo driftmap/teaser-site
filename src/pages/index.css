@@ -1,0 +1,27 @@
+@import "./typography.css";
+
+html{
+    background-color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: 'l-margin center r-margin';
+}
+
+#center-column {
+    grid-area: center;
+}
+
+#header-logotype {
+    margin-top: 10vh;
+}
+
+#header-subtitle{
+    color: #000;
+    text-align: center;
+    font-family: 'Utld', sans-serif;
+    font-size: 1vw;
+    margin-top: 2rem;
+}

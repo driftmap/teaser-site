@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "UtldReg";
+    src: url("../../static/utld-reg.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UtldBlk";
+    src: url("../../static/utld-blk.woff") format("woff");
+    font-weight: bold;
+    font-style: black;
+}
+
