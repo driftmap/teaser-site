@@ -20,7 +20,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "drift-logo-black@3x.png" }) {
+    file(relativePath: { eq: "drift-logo-yellow@2x.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
